@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'sample';
+  title = 'sample';  // declaring a to 1
+
+  getRandomNumber(){
+    return 4; // chosen by fair dice roll.
+              // guaranteed to be random.
+  }
 }
